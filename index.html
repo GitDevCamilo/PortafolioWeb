@@ -11,33 +11,32 @@
 </head>
 
 <body>
-    <div class="hero">
-        <nav>
+    <div class="hero" id="inicio">
+        <nav class="navbar">
             <h2 class="logo">Porta<span>folio</span></h2>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre mi</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#about">Sobre mi</a></li>
+                <li><a href="#service">Servicios</a></li>
+                <li><a href="#contact-me">Contacto</a></li>
             </ul>
-            <a href="#" class="btn">Perfil</a>
+            <a href="#" class="btn">Proyectos</a>
         </nav>
 
         <div class="content">
             <h4>Hola, mi nombre es</h4>
             <h1>Camilo <span>Meneses</span></h1>
             <h3>Soy un desarrollador web</h3>
-            <div class="newslatter">
+            <!-- <div class="newslatter">
                 <form action="">
                     <input type="email" name="email" id="mail" placeholder="Digita Tu Email">
                     <input type="submit" name="submit" value="Enviar">
                 </form>
-            </div>
+            </div> -->
         </div>
     </div>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="main">
             <img id="perfil" src="img/perfil.jpg" alt="foto de perfil">
             <div class="about-text">
@@ -50,7 +49,7 @@
         </div>
     </section>
 
-    <div class="service">
+    <div class="service" id="service">
         <div class="tittle">
             <h2>Mis Servicios</h2>
         </div>
@@ -85,7 +84,7 @@
         </div>
     </div>
 
-    <div class="contact-me">
+    <div class="contact-me" id="contact-me">
         <p>Dejame crearte un sitio web perfecto</p>
         <a class="button-two" href="#">Contactame</a>
     </div>
@@ -93,15 +92,15 @@
     <footer>
         <p>Camilo Meneses</p>
         <div class="social">
-            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/AdrianCamilo04?tab=repositories"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.instagram.com/camilomenesesbermeo/?hl=es"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/adrian-camilo-web-developer-8ba617228/"><ion-icon name="logo-linkedin"></ion-icon></a>
         </div>
         <p class="end">CopyRight by Camilo</p>
     </footer>
 
+    <script src="script/menu.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
-
 </html>
